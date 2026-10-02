@@ -20,17 +20,17 @@ An animal shelter management portal that tracks rescue medical intake histories,
 
 | Folder | Contents | Status |
 |---|---|---|
-| [1-RE](1-RE) | [Requirements table](1-RE/Requirements_Table.docx) (5 FRs, 2 NFRs) and [RTM](1-RE/RTM.xlsx) | Done |
+| [1-RE](1-RE) | [Requirements table](1-RE/Requirements_Table.pdf) ([docx](1-RE/Requirements_Table.docx)) (5 FRs, 2 NFRs) and [RTM](1-RE/RTM.xlsx) | Done |
 | [2-Architectural-Diagram](2-Architectural-Diagram) | [Architecture diagram](2-Architectural-Diagram/Architecture_Diagram.png) ([PDF](2-Architectural-Diagram/Architecture_Diagram.pdf)): three-tier web architecture with one service per requirement area | Done |
 | [3-Project-Creation](3-Project-Creation) | Jira screenshots: [Kanban board](3-Project-Creation/Kanban_Project-NishitDB_PES1UG24CS303-BPS%2357.PDF), [Scrum backlog and Sprint 1](3-Project-Creation/Scrum_Project-NishitDB_PES1UG24CS303-BPS%2357.PDF) | Done |
-| [4-SRS-and-WBS](4-SRS-and-WBS) | [SRS](4-SRS-and-WBS/SRS.pdf) ([docx](4-SRS-and-WBS/SRS.docx)), [UC-02 use-case flow specification](4-SRS-and-WBS/UseCase_Flow_UC02.docx), [UC-02 exception flows](4-SRS-and-WBS/PES1UG24CS303_Nishit_DB_%20Exception_Flow.pdf), [WBS](4-SRS-and-WBS/WBS.xlsx) ([diagram](4-SRS-and-WBS/WBS.png)) | Done |
+| [4-SRS-and-WBS](4-SRS-and-WBS) | [SRS](4-SRS-and-WBS/SRS.pdf) ([docx](4-SRS-and-WBS/SRS.docx)), [UC-02 use-case flow specification](4-SRS-and-WBS/UseCase_Flow_UC02.pdf) ([docx](4-SRS-and-WBS/UseCase_Flow_UC02.docx)), [UC-02 exception flows](4-SRS-and-WBS/PES1UG24CS303_Nishit_DB_%20Exception_Flow.pdf), [WBS](4-SRS-and-WBS/WBS.xlsx) ([diagram](4-SRS-and-WBS/WBS.png)) | Done |
 | [5-GitHub-Copilot](5-GitHub-Copilot) | Copilot-generated code screenshots or repository link | Pending |
 | [6-Software-Testing](6-Software-Testing) | [Jira bug tracking board](6-Software-Testing/Bug_Project-NishitDB_PES1UG24CS303-BPS%2357.PDF) | Bug fix and retest pending |
-| [7-UML-Diagrams](7-UML-Diagrams) | [Use-case diagram](7-UML-Diagrams/usecase_diagram.pdf) | Activity diagram pending |
+| [7-UML-Diagrams](7-UML-Diagrams) | [Use-case diagram](7-UML-Diagrams/usecase_diagram.pdf), [activity diagram for UC-02](7-UML-Diagrams/Activity_Diagram.png) ([PDF](7-UML-Diagrams/Activity_Diagram.pdf)) | Done |
 
 ## Requirements summary
 
-Full table with type, priority, acceptance criteria and rationale: [1-RE/Requirements_Table.docx](1-RE/Requirements_Table.docx). Traceability in both directions: [1-RE/RTM.xlsx](1-RE/RTM.xlsx).
+Full table with type, priority, acceptance criteria and rationale: [1-RE/Requirements_Table.pdf](1-RE/Requirements_Table.pdf). Traceability in both directions: [1-RE/RTM.xlsx](1-RE/RTM.xlsx).
 
 | ID | Requirement | Priority |
 |---|---|---|
@@ -66,7 +66,7 @@ Relationships: UC-03 «include» UC-04, UC-09 «include» UC-08, UC-07 «include
 
 ## Core use case: UC-02 Submit Adoption Application
 
-- **Specification:** [4-SRS-and-WBS/UseCase_Flow_UC02.docx](4-SRS-and-WBS/UseCase_Flow_UC02.docx) covers preconditions, postconditions, the 7-step main success scenario and alternate flow 4a (animal no longer available, or a duplicate application).
+- **Specification:** [4-SRS-and-WBS/UseCase_Flow_UC02.pdf](4-SRS-and-WBS/UseCase_Flow_UC02.pdf) covers preconditions, postconditions, the 7-step main success scenario and alternate flow 4a (animal no longer available, or a duplicate application).
 - **Exception flows:** [4-SRS-and-WBS/PES1UG24CS303_Nishit_DB_ Exception_Flow.pdf](4-SRS-and-WBS/PES1UG24CS303_Nishit_DB_%20Exception_Flow.pdf) covers E1 (invalid or incomplete input) and E2 (system or connectivity failure, with the answers kept as a local browser draft).
 
 ## Project management
