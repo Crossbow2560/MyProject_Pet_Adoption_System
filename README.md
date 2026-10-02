@@ -21,7 +21,7 @@ An animal shelter management portal that tracks rescue medical intake histories,
 | Folder | Contents | Status |
 |---|---|---|
 | [1-RE](1-RE) | [Requirements table](1-RE/Requirements_Table.docx) (5 FRs, 2 NFRs) and [RTM](1-RE/RTM.xlsx) | Done |
-| [2-Architectural-Diagram](2-Architectural-Diagram) | Architecture diagram | Pending |
+| [2-Architectural-Diagram](2-Architectural-Diagram) | [Architecture diagram](2-Architectural-Diagram/Architecture_Diagram.png) ([PDF](2-Architectural-Diagram/Architecture_Diagram.pdf)): three-tier web architecture with one service per requirement area | Done |
 | [3-Project-Creation](3-Project-Creation) | Jira screenshots: [Kanban board](3-Project-Creation/Kanban_Project-NishitDB_PES1UG24CS303-BPS%2357.PDF), [Scrum backlog and Sprint 1](3-Project-Creation/Scrum_Project-NishitDB_PES1UG24CS303-BPS%2357.PDF) | Done |
 | [4-SRS-and-WBS](4-SRS-and-WBS) | [SRS](4-SRS-and-WBS/SRS.pdf) ([docx](4-SRS-and-WBS/SRS.docx)), [UC-02 use-case flow specification](4-SRS-and-WBS/UseCase_Flow_UC02.docx), [UC-02 exception flows](4-SRS-and-WBS/PES1UG24CS303_Nishit_DB_%20Exception_Flow.pdf), [WBS](4-SRS-and-WBS/WBS.xlsx) ([diagram](4-SRS-and-WBS/WBS.png)) | Done |
 | [5-GitHub-Copilot](5-GitHub-Copilot) | Copilot-generated code screenshots or repository link | Pending |
